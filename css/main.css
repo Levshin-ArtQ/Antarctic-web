@@ -1,6 +1,7 @@
 
 img {
-  vertical-align: middle;
+  vertical-align: top;
+  horiz-align: right;
   object-fit: cover;
 }
 
