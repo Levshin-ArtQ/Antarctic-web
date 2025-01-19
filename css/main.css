@@ -1,7 +1,7 @@
 
 img {
   vertical-align: top;
-  horiz-align: right;
+  horisontal-align: right;
   object-fit: cover;
   border: 0;
 }
@@ -50,18 +50,30 @@ button {
   height: 65px;
   color: white;
 }
+.navf-link {
+  color: white;
+}
+.nav-arrow {
+  margin: 0 5px;
+}
 .search-bar {
   background-color: white;
   margin-right: 24px;
+  padding: 3px 5px !important;
+}
+.search {
+  width: 20px;
+  height: 20px;
 }
 
 .main-image {
-  background-image: url("/img/main-image.png");
+  /*background-image: url("/img/main-image.png");*/
   /*background-color: darkorange;*/
   background-size: cover;
   /*height: 414px;*/
   aspect-ratio: 3/1;
 }
+
 
 .feel_text {
   margin: auto 0;
@@ -134,7 +146,6 @@ button {
   /*height: 850px;*/
   z-index: 10;
   aspect-ratio: 2/1;
-  background-image: url(/img/favpng_antarctic-sea-iceberg.png);
   background-size: cover;
   background-color: aliceblue;
   padding-bottom: 30px;
@@ -205,7 +216,9 @@ button {
 .square {
   aspect-ratio: 1/1;
 }
-
+.article {
+  margin-top: 20px;
+}
 .slogan {
   color: #00709E;
 }
@@ -235,21 +248,15 @@ button {
   /*flex-wrap: wrap;*/
 }
 
-.album_additional {
-  position: relative;
-  width: 220px;
-}
+
 .album-cover {
-  aspect-ratio: 1080/720;
-  align-self: start;
+  /*aspect-ratio: 1080/720;*/
+  /*align-self: start;*/
 }
 
 
 
-.additional-photo {
-  flex: 1;
-  aspect-ratio: 220/170;
-}
+
 
 .book-card__inner {
   display: flex;
@@ -275,6 +282,7 @@ button {
 }
 .footer {
   font-family: Tahoma, Serif, serif;
+  font-weight: bold;
   background-color: #1D3553;
   color: white;
   padding-bottom: 30px;
@@ -284,6 +292,9 @@ button {
 }
 .footer-link {
   color: white;
+}
+.footer-link:hover {
+  color: aliceblue;
 }
 .award {
   margin-bottom: 20px;
@@ -298,7 +309,6 @@ button {
     font-size: 18px !important;
   }
 }
-
 @media (max-width: 576px) {
   .logo-info {
     width: 35px;
@@ -307,7 +317,6 @@ button {
     background-color: #1D3553;
   }
 }
-
 @media (min-width: 768px) {
   .regular-text {
     font-size: 20px !important;
@@ -378,9 +387,12 @@ button {
   .delimiter-card {
     margin: 5px 0 ;
   }
+  .album-cover {
+    height: 304px!important;
+  }
   .additional-photo {
+    height: 152px !important;
     aspect-ratio: 1/1 !important;
-    height: 11px !important;
   }
   .book-card__inner>.regular-text, .pic-bullet>.regular-text {
     font-size: 25px !important;
@@ -395,5 +407,12 @@ button {
   }
   .regular-text {
     font-size: 30px !important;
+  }
+  .album-cover {
+    height: 364px!important;
+  }
+  .additional-photo {
+    height: 182px !important;
+    aspect-ratio: 1/1 !important;
   }
 }
