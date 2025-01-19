@@ -45,9 +45,10 @@ const cardBuilder = function cardBuilder(type, tariff) {
 
   return `
             <div class="card-top d-flex justify-content-between">
-              <img src="${card_pic}" alt="" class="card-pic${type} square">
+              <div src="${card_pic}" alt="." class="card-pic${type} card-pic-${tariff} img square"></div>
+              
               <div class="tariff-sign d-flex flex-column text-center justify-content-between">
-                <img src="${card_logo}" alt="" class="tariff-logo${type}">
+                <div src="${card_logo}" alt="." class="tariff-logo${type} img tariff-logo-${tariff}"></div>
                 <h4 class="tariff-stext header-${type}" style="color: ${color}">${tariff}</h4>
               </div>
             </div>

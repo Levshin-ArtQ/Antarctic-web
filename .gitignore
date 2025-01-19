@@ -11,6 +11,9 @@ node_modules/
 
 # Optional npm cache directory
 .npm
+.cashe
+.idea
+
 
 # Optional yarn cache directory
 .yarn$
