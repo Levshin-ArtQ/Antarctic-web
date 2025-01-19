@@ -153,7 +153,7 @@ button {
 .tariffs {
   /*height: 850px;*/
   z-index: 10;
-  aspect-ratio: 2/1;
+  /* aspect-ratio: 2/1; */
   background-size: cover;
   background-color: aliceblue;
   padding-bottom: 30px;
